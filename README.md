@@ -53,9 +53,8 @@ The **Modern Color Picker** is a powerful Chrome extension that allows users to 
 
 ### Picking Colors
 1. Open the extension popup.
-2. Click the **Pick Color** button or press `Ctrl + P` to activate the color picker.
-3. Hover over any part of the screen to select a color.
-4. The selected color will be displayed in the popup with its HEX, RGB, and HSL values.
+2. Hover over any part of the screen to select a color.
+3. The selected color will be displayed in the popup with its HEX, RGB, and HSL values.
 
 ### Site Colors
 1. Switch to the **Site Colors** tab in the popup.
