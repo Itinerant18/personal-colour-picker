@@ -1,6 +1,5 @@
 # Personal  Color Picker Chrome Extension
-
-![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Version](https://img.shields.io/badge/version-1.0.0-green.svg)
+ ![Version](https://img.shields.io/badge/version-1.0.0-green.svg)
 
 The **Modern Color Picker** is a powerful Chrome extension that allows users to pick colors from web pages, images, videos, and even their entire screen. It provides advanced functionality such as color history, contrast checking, gradient detection, and more.
 
