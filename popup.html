@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Color Picker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Floating Widget -->
+ 
+
+  <!-- Main Container -->
+  <div class="container">
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="picker">Color Picker</button>
+      <button class="tab-btn" data-tab="site-colors">Site Colors</button>
+      <button class="tab-btn" data-tab="search">Search</button>
+    </div>
+
+    <!-- Color Picker Tab -->
+    <section class="tab-content active" id="picker-tab">
+      <h1>Picker</h1>
+      <button id="pick-color-btn" aria-label="Start color picker tool">
+        <span>🔍 Pick Color</span>
+      </button>
+     
+      
+      <div id="color-preview" role="img" aria-label="Preview of selected color"></div>
+      
+      <div id="color-info">
+        <p>
+          <span>HEX: <span id="hex-value">#FFFFFF</span></span>
+          <button class="copy-btn" data-format="hex" aria-label="Copy HEX value">Copy</button>
+        </p>
+        <p>
+          <span>RGB: <span id="rgb-value">rgb(255, 255, 255)</span></span>
+          <button class="copy-btn" data-format="rgb" aria-label="Copy RGB value">Copy</button>
+        </p>
+        <p>
+          <span>HSL: <span id="hsl-value">hsl(0, 0%, 100%)</span></span>
+          <button class="copy-btn" data-format="hsl" aria-label="Copy HSL value">Copy</button>
+        </p>
+      </div>
+    </section>
+
+    <!-- Site Colors Tab -->
+    <section class="tab-content" id="site-colors-tab">
+      <div class="site-colors-grid" id="site-colors-grid">
+        <div class="loading"><span class="spinner"></span> Analyzing page colors...</div>
+      </div>
+    </section>
+
+    <!-- Search Tab -->
+    <section class="tab-content" id="search-tab">
+      <div class="search-container">
+        <input type="text" id="color-search" placeholder="Search colors (e.g., 'red' or '#ff0000')">
+        <div class="color-suggestions" id="color-suggestions"></div>
+      </div>
+    </section>
+
+    <!-- Color History -->
+    <section id="history">
+      <h2>Recent Colors</h2>
+      <div id="color-history" role="list" aria-label="History of recently picked colors"></div>
+    </section>
+
+    <!-- Dark Mode Toggle -->
+    <label>
+      <input type="checkbox" id="dark-mode-toggle"> Enable Dark Mode
+    </label>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <a href="https://github.com/Itinerant18" target="_blank" class="github-link">Itinerant18</a>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

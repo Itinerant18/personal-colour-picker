@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "Personal Color Picker",
+  "version": "1.0",
+  "description": "A professional color picker extension with site color analysis and search capabilities",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon-16.png",
+      "48": "icon-48.png",
+      "128": "icon-128.png"
+    }
+  },
+  "icons": {
+    "16": "icon-16.png",
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+P",
+        "mac": "Command+P"
+      },
+      "description": "Open color picker"
+    }
+  }
+}
