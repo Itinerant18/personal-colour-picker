@@ -1,4 +1,4 @@
-# Modern Color Picker Chrome Extension
+# Personal  Color Picker Chrome Extension
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Version](https://img.shields.io/badge/version-1.0.0-green.svg)
 
@@ -13,7 +13,7 @@ The **Modern Color Picker** is a powerful Chrome extension that allows users to 
 - **Live Preview**: Displays a real-time preview of the selected color.
 - **Multiple Formats**: Automatically displays HEX, RGB, HSL, and CMYK values.
 - **Copy to Clipboard**: Easily copy color codes in various formats with a single click.
-- **Keyboard Shortcut**: Use `Ctrl + P` to activate the color picker tool.
+
 
 ### Advanced Features
 - **Site Colors**: Analyze and extract colors used on a webpage.
